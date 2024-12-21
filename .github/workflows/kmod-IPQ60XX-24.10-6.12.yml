@@ -1,4 +1,7 @@
-name: IPQ60XX-24.10-6.12
+name: kmod-IPQ60XX-24.10-6.12
+
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
