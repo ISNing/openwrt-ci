@@ -89,7 +89,7 @@ jobs:
 
     - name: Enable Kmods(启用所有 kmod 内核模块)
       run: |
-        sed -i 's/^# CONFIG_PACKAGE_kmod/CONFIG_PACKAGE_kmod/' .config
+        sed -i 's/^# CONFIG_PACKAGE_kmod/CONFIG_PACKAGE_kmod/' $OPENWRT_PATH/.config
 
     - name: Download DL Package(下载DL软件包)
       run: |
